@@ -46,3 +46,19 @@
 .theme-black-bg {
   background-color: var(--theme-black);
 }
+
+/* CSS for navbar links */
+.theme-nav {
+  text-decoration: none;
+  color: var(--theme-gray-white);
+  transition: color .1s ease-in-out;
+  transition: filter .05s ease-in-out;
+}
+
+.theme-nav:hover {
+  color: var(--theme-comp);
+}
+
+.theme-nav:active {
+  filter: brightness(85%);
+}
