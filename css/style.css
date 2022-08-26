@@ -1,4 +1,8 @@
 /* STYLING FOR MOBILE AND UP */
+body {
+  padding-top: 2.5rem;
+}
+
 .navbar {
   padding: 0 3rem;
 }
@@ -12,7 +16,6 @@
 .hero {
   display: flex;
   align-items: center;
-  height: 100vh;
   background-color: var(--theme-grayer-white);
   /* background-image: url(/background-gifs/handshake.gif);
   background-size: cover; */
@@ -81,6 +84,13 @@
   display: none;
 }
 
+.mission {
+  background-color: var(--theme-primary);
+}
+
+.offset-card {
+  background-color: white;
+}
 
 /* STYLING FOR MD AND UP */
 @media (min-width: 768px) {
@@ -101,13 +111,21 @@
     box-shadow: .2rem .2rem 1rem -.1rem black;
   }
 
-  .hero-floating-text .big-text {
+  .hero-big {
     font-size: 2rem;
     font-weight: 700;
   }
 
-  .big-text,
-  .small-text {
+  .hero-big,
+  .hero-small {
     text-shadow: 1px 1px var(--theme-black-opacity);
+  }
+
+  .mission {
+    height: 20rem;
+  }
+
+  .offset-card {
+    transform: translateY(10rem);
   }
 }
