@@ -1,0 +1,48 @@
+:root {
+  --theme-primary: #ad1457;
+  --theme-comp: #14ad6b;
+  --theme-analogous: #ad14a3;
+  --theme-gray-white: #f8f8f8;
+  --theme-black: #0a0a0a;
+}
+
+/* Theme Classes */
+.theme-primary {
+  color: var(--theme-primary);
+}
+
+.theme-primary-bg {
+  background-color: var(--theme-primary);
+}
+
+.theme-comp {
+  color: var(--theme-comp);
+}
+
+.theme-comp-bg {
+  background-color: var(--theme-comp);
+}
+
+.theme-analogous {
+  color: var(--theme-analogous);
+}
+
+.theme-analogous-bg {
+  background-color: var(--theme-analogous);
+}
+
+.theme-gray-white {
+  color: var(--theme-gray-white);
+}
+
+.theme-gray-white-bg {
+  background-color: var(--theme-gray-white);
+}
+
+.theme-black {
+  color: var(--theme-black);
+}
+
+.theme-black-bg {
+  background-color: var(--theme-black);
+}
