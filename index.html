@@ -43,8 +43,31 @@
 
   <main>
     <!-- SECTION Hero -->
-    <section>
+    <section class="container">
+      <div class="col-md-3">
+        <p>Sign Up</p>
+        <div class="sign-up-card">
+          <p>Be a rich guy!</p>
+          <form action="">
+            <input type="text" name="name" placeholder="NAME" class="sign-up-input">
+            <input type="text" name="email" placeholder="EMAIL" class="sign-up-input">
+            <div class="phone-and-ext">
+              <input type="tel" name="phone" placeholder="PHONE" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                class="sign-up-input">
+              <input type="number" name="extension" placeholder="EXT" pattern="[0-9]{3}" class="sign-up-input">
+            </div>
+            <input type="textarea" name="message" placeholder="MESSAGE" class="sign-up-input">
+            <div class="agree-checkbox">
+              <input type="checkbox" id="agree" name="agree" class="sign-up-input">
+              <label for="agree">I agree to let DNAMLM take all my money</label>
+            </div>
+            <button class="submit-button">SUBMIT YOURSELF</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-9">
 
+      </div>
     </section>
   </main>
 
