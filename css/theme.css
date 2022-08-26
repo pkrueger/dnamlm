@@ -1,12 +1,20 @@
 :root {
   --theme-primary: #ad1457;
   --theme-comp: #14ad6b;
+  --theme-comp-opacity: #14ad6b11;
   --theme-analogous: #ad14a3;
   --theme-gray-white: #f8f8f8;
+  --theme-grayer-white: #d6d6d6;
   --theme-black: #0a0a0a;
+  --theme-black-opacity: #0a0a0a39;
+  --shadow: .2rem .2rem .2rem -.2rem #0a0a0a;
 }
 
 /* Theme Classes */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .theme-primary {
   color: var(--theme-primary);
 }
@@ -39,12 +47,24 @@
   background-color: var(--theme-gray-white);
 }
 
+.theme-grayer-white {
+  color: var(--theme-grayer-white);
+}
+
 .theme-black {
   color: var(--theme-black);
 }
 
 .theme-black-bg {
   background-color: var(--theme-black);
+}
+
+.white-opacity {
+  color: rgb(255, 255, 255, .8);
+}
+
+.black-opacity {
+  color: rgb(0, 0, 0, .75);
 }
 
 /* CSS for navbar links */

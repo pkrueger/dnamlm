@@ -1,5 +1,113 @@
+/* STYLING FOR MOBILE AND UP */
+.navbar {
+  padding: 0 3rem;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--theme-grayer-white);
+  /* background-image: url(/background-gifs/handshake.gif);
+  background-size: cover; */
+}
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sign-up-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: .2rem;
+  box-shadow: var(--shadow);
+}
+
+.sign-up-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sign-up-input {
+  border-radius: .1rem;
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: .1rem solid var(--theme-grayer-white);
+}
+
+.phone-input {
+  width: 75%;
+}
+
+.ext-input {
+  width: 20%;
+}
+
+.text-area-input {
+  height: 5rem;
+}
+
+.checkbox-input {
+  accent-color: var(--theme-comp);
+}
+
+.submit-button {
+  width: fit-content;
+  padding: .3rem 1rem;
+  background-color: var(--theme-comp-opacity);
+  border: none;
+  border-radius: .2rem;
+  transition: filter .05s ease-in-out;
+}
+
+.submit-button:active {
+  filter: brightness(85%);
+}
+
+.hero-floating-text {
+  display: none;
+}
+
+
+/* STYLING FOR MD AND UP */
+@media (min-width: 768px) {
+  .hero {
+    height: 40rem;
+  }
+
+  .hero-floating-text {
+    align-self: flex-start;
+    padding: 5rem 30vw 0 9rem;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .vertical-bar {
+    height: 8rem;
+    width: .3rem;
+    box-shadow: .2rem .2rem 1rem -.1rem black;
+  }
+
+  .hero-floating-text .big-text {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .big-text,
+  .small-text {
+    text-shadow: 1px 1px var(--theme-black-opacity);
+  }
 }
