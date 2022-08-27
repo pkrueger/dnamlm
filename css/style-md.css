@@ -25,6 +25,7 @@
   .hero {
     height: 50rem;
     background-position: left top;
+    justify-content: flex-start
   }
 
   .sign-up-container {
@@ -38,7 +39,7 @@
 
   .hero-floating-text {
     align-self: flex-start;
-    padding: 5rem 20vw 0 9rem;
+    padding: 5rem 0 0 6rem;
     display: flex;
     gap: 3rem;
   }

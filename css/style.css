@@ -64,6 +64,7 @@ body {
 .hero {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-image: url(/background-gifs/fuller.gif);
   background-size: cover;
   background-position: center;
