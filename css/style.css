@@ -1,11 +1,20 @@
+:root {
+  --paddingx: 5rem;
+}
+
 /* STYLING FOR MOBILE AND UP */
 body {
   padding-top: 2.5rem;
 }
 
+/* SECTION navbar */
 .navbar {
-  padding: 0 3rem;
+  padding: 0 var(--paddingx);
   box-shadow: 0 0 .8rem -.4rem var(--theme-black);
+}
+
+.navbar-brand {
+  color: white;
 }
 
 .navbar-nav {
@@ -14,11 +23,13 @@ body {
   gap: 1rem;
 }
 
+/* SECTION hero */
 .hero {
   display: flex;
   align-items: center;
   background-image: url(/background-gifs/fuller.gif);
   background-size: cover;
+  padding: 0 var(--paddingx);
 }
 
 .sign-up-container {
@@ -84,12 +95,51 @@ body {
   display: none;
 }
 
+/* SECTION mission */
 .mission {
   background-color: var(--theme-primary);
+  display: flex;
+  padding: 0 var(--paddingx);
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mission-big,
+.mission-small {
+  color: white;
 }
 
 .offset-card {
   background-color: white;
+  box-shadow: var(--shadow);
+  border-radius: .2rem;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.icon-and-text {
+  display: flex;
+}
+
+.icon-container {
+  width: 2.5rem;
+}
+
+.icon-and-text i {
+  color: var(--theme-comp);
+  padding: 0 .5rem 0 0;
+  font-size: 1.5rem;
+}
+
+/* SECTION live */
+.live {
+  padding: 0 var(--paddingx);
 }
 
 .more-button {
@@ -97,10 +147,55 @@ body {
   border: none;
   border-radius: .2rem;
   transition: filter .05s ease-in-out;
+  color: white;
 }
 
 .more-button:active {
   filter: brightness(85%);
+}
+
+/* SECTION reviews */
+.reviews {
+  padding: 0 var(--paddingx);
+}
+
+.review-card {
+  display: flex;
+}
+
+.side-card,
+.middle-card {
+  background-color: white;
+}
+
+.review-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.star-icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  color: white;
+}
+
+.star-icon {
+  background-color: var(--theme-primary);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: .03rem;
+}
+
+/* SECTION footer */
+.copyright {
+  background-color: white;
 }
 
 /* STYLING FOR MD AND UP */
@@ -111,7 +206,7 @@ body {
 
   .hero-floating-text {
     align-self: flex-start;
-    padding: 5rem 30vw 0 9rem;
+    padding: 5rem 20vw 0 9rem;
     display: flex;
     gap: 3rem;
   }
@@ -137,6 +232,6 @@ body {
   }
 
   .offset-card {
-    transform: translateY(10rem);
+    transform: translateY(6rem);
   }
 }

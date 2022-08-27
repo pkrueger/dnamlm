@@ -27,7 +27,7 @@
     <section>
       <nav class="navbar theme-primary-bg fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand nav-brand theme-white" href="#">
+          <a class="navbar-brand nav-brand" href="#">
             <i class="fa-solid fa-piggy-bank nav-logo"></i>
             DNAMLM
           </a>
@@ -49,7 +49,7 @@
   <main>
     <!-- SECTION Hero -->
     <section class="container-fluid hero">
-      <div class="row ps-5">
+      <div class="row">
         <div class="col-md-3 sign-up-container">
           <p class="white-opacity ps-1" id="sign-up">Sign Up</p>
           <div class="sign-up-card">
@@ -66,7 +66,7 @@
               <input type="textarea" name="message" placeholder="MESSAGE" class="sign-up-input text-area-input">
               <div class="agree-checkbox">
                 <input type="checkbox" id="agree" name="agree" class="checkbox-input">
-                <label for="agree">I agree to let DNAMLM take all my money</label>
+                <label for="agree" class="black-opacity">I agree to let DNAMLM take all my money</label>
               </div>
               <button class="submit-button theme-comp">SUBMIT YOURSELF</button>
             </form>
@@ -86,30 +86,47 @@
     <!-- SECTION text and box overlay -->
     <section class="container-fluid mission">
       <div class="row">
-        <div class="col-md-5">
-          <p class="mission-big">Lorem ipsum dolor sit amet.</p>
-          <p class="mission-small">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, voluptatibus
-            ipsam
-            dignissimos soluta obcaecati possimus ducimus quibusdam laborum quia, accusamus alias nostrum minus tempore
-            ad
-            aut quaerat saepe quae dolore.</p>
+        <div class="col-md-5 mission-text">
+          <h2 class="mission-big">Become your best self at DNAMLM!</h2>
+          <p class="mission-small pe-5">
+            Here at <strong><em>Definitely Not An MLM</em></strong> we pride ourselves in a forward thinking work
+            culture where you can
+            be the very best you can be! Need a day off from bugging all your Facebook friends to buy our
+            product? TAKE THAT DAY! Just don't expect to get paid for it.
+          </p>
         </div>
         <div class="col-md-7">
           <div class="offset-card">
             <div class="icon-and-text">
-              <p>dummy text</p>
+              <div class="icon-container">
+                <i class="fa-solid fa-car-side"></i>
+              </div>
+              <p>Why buy your own car when we'll give you one!?</p>
             </div>
             <div class="icon-and-text">
-              <p>dummy text</p>
+              <div class="icon-container">
+                <i class="fa-solid fa-mobile-screen ps-1"></i>
+              </div>
+              <p>We'll give you a phone too. Why not?</p>
             </div>
             <div class="icon-and-text">
-              <p>dummy text</p>
+              <div class="icon-container">
+                <i class="fa-solid fa-house"></i>
+              </div>
+              <p>We're not giving you a house. But maybe.... Nah, jkjkjk</p>
             </div>
             <div class="icon-and-text">
-              <p>dummy text</p>
+              <div class="icon-container">
+                <i class="fa-solid fa-bullhorn"></i>
+              </div>
+              <p>Remember to sell to all your friends!</p>
             </div>
             <div class="icon-and-text">
-              <p>dummy text</p>
+              <div class="icon-container">
+                <i class="fa-solid fa-skull-crossbones"></i>
+              </div>
+              <p class="mb-0">Don't stop selling and you can keep it all! Just be careful to never stop selling our
+                product. Baba Yaga come for you.</p>
             </div>
           </div>
         </div>
@@ -129,19 +146,93 @@
             voluptatibus praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non explicabo quaerat
             delectus error dolorum earum labore quasi, totam, atque aliquam aut eaque? Assumenda autem aperiam aliquam
             eaque soluta voluptate!</p>
-          <button class="more-button theme-comp-bg theme-white">MORE</button>
+          <button class="more-button theme-comp-bg">MORE</button>
         </div>
       </div>
     </section>
 
     <!-- SECTION reviews -->
-    <section class="container-fluid reviews">
+    <section class="container-fluid reviews theme-white-bg">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="side-card review-card">
+            <i class="fa-solid fa-quote-left"></i>
+            <div class="review-text-container">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias eos expedita corporis harum
+                dolores eveniet similique. A earum inventore quos amet, architecto, maxime iste, quaerat voluptatum
+                excepturi qui sapiente.
+              </p>
+              <img src="/headshots/craig-mckay-jmURdhtm7Ng-unsplash.jpg" alt="a real person" class="img-fluid headshot">
+              <p class="theme-comp">name</p>
+            </div>
+          </div>
+        </div>
 
+        <div class="col-md-4">
+          <div class="middle-card">
+            <!-- TODO stars go here -->
+            <div class="star-icons">
+              <div class="star-icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="star-icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="star-icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+            <div class="review-card">
+              <i class="fa-solid fa-quote-left"></i>
+              <div class="review-text-container">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias eos expedita corporis harum
+                  dolores eveniet similique. A earum inventore quos amet, architecto, maxime iste, quaerat voluptatum
+                  excepturi qui sapiente.
+                </p>
+                <img src="/headshots/jake-nackos-IF9TK5Uy-KI-unsplash.jpg" alt="a real person"
+                  class="img-fluid headshot">
+                <p class="theme-comp">name</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="side-card review-card">
+            <i class="fa-solid fa-quote-left"></i>
+            <div class="review-text-container">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias eos expedita corporis harum
+                dolores eveniet similique. A earum inventore quos amet, architecto, maxime iste, quaerat voluptatum
+                excepturi qui sapiente.
+              </p>
+              <img src="/headshots/julian-wan-WNoLnJo7tS8-unsplash.jpg" alt="a real person" class="img-fluid headshot">
+              <p class="theme-comp">name</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-
+    <!-- SECTION footer info -->
+    <section class="container-fluid footer">
+      <div class="row theme-primary-bg">
+        <div class="col">
+          <p class="footer-big">Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="footer-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nesciunt delectus
+            ea autem sint reiciendis? Modi optio cum quis molestias!</p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <div class="col">
+          <p class="theme-comp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, reiciendis!</p>
+        </div>
+      </div>
+    </section>
   </footer>
 </body>
 

@@ -60,17 +60,17 @@ body {
 }
 
 .white-opacity {
-  color: rgb(255, 255, 255, .8);
+  color: rgb(255, 255, 255, .9);
 }
 
 .black-opacity {
-  color: rgb(0, 0, 0, .75);
+  color: rgb(0, 0, 0, .4);
 }
 
 /* CSS for navbar links */
 .theme-nav {
   text-decoration: none;
-  color: var(--theme-white);
+  color: white;
   transition: color .1s ease-in-out;
   transition: filter .05s ease-in-out;
 }
