@@ -1,5 +1,9 @@
 /* STYLING FOR XL AND UP */
 @media (min-width: 1200px) {
+  .hero {
+    background-position: left top;
+  }
+
   .hero-floating-text {
     padding: 5rem 20vw 0 9rem;
   }

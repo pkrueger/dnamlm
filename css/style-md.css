@@ -24,7 +24,6 @@
   /* #region */
   .hero {
     height: 50rem;
-    background-position: left top;
     justify-content: flex-start
   }
 
