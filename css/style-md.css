@@ -4,8 +4,36 @@
     --paddingx: 5rem;
   }
 
+  /* SECTION nav */
+  /* #region */
+  #navbarNav {
+    padding-bottom: 0;
+  }
+
+  .navbar-brand {
+    transition: color .15s ease-in-out;
+  }
+
+  .theme-nav {
+    transition: color .15s ease-in-out;
+  }
+
+  /* #endregion */
+
+  /* SECTION hero */
+  /* #region */
   .hero {
     height: 50rem;
+    background-position: left top;
+  }
+
+  .sign-up-container {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .sign-up-card {
+    background-color: white;
   }
 
   .hero-floating-text {
@@ -31,15 +59,136 @@
     text-shadow: 1px 1px var(--theme-black-opacity);
   }
 
+  /* #endregion */
+
+  /* SECTION mission */
+  /* #region */
   .mission {
     min-height: 20rem;
+    padding: 0 var(--paddingx);
+  }
+
+  .mission-text {
+    order: 0;
   }
 
   .offset-card {
     transform: translateY(8rem);
+    order: 0;
+    margin-bottom: 0;
   }
 
+  .icon-and-text i {
+    padding-top: 0;
+  }
+
+  .icon-and-text h5 {
+    padding-top: .3rem;
+  }
+
+  /* #endregion */
+
+  /* SECTION lifestyle */
+  /* #region */
   .live {
     max-height: 50rem;
+    padding: 5rem var(--paddingx);
   }
+
+  video {
+    max-height: 40rem;
+  }
+
+  .live-text {
+    margin-top: 5rem;
+  }
+
+  .live-big {
+    line-height: 4rem;
+  }
+
+  /* #endregion */
+
+  /* SECTION reviews */
+  /* #region */
+  .reviews {
+    padding: 5rem var(--paddingx);
+  }
+
+  .middle-card {
+    padding: 2.5rem 3.5rem .5rem 3.5rem;
+  }
+
+  .side-card {
+    padding: 4rem 3.5rem .5rem 3.5rem;
+  }
+
+  .review-text-container p {
+    margin-bottom: 2.5rem;
+  }
+
+  /* #endregion */
+
+  /* SECTION footer */
+  /* #region */
+  .footer-big a {
+    color: white;
+    transition: color .15s ease-in-out;
+  }
+
+  /* #endregion */
+
+  /* SECTION animation for stars */
+  /* #region */
+  @keyframes bounce {
+
+    0%,
+    30%,
+    54%,
+    74%,
+    86%,
+    94% {
+      transform: translateY(0);
+    }
+
+    15% {
+      transform: translateY(-1rem);
+    }
+
+    42% {
+      transform: translateY(-.8rem);
+    }
+
+    64% {
+      transform: translateY(-.5rem);
+    }
+
+    80% {
+      transform: translateY(-.25rem);
+    }
+
+    90% {
+      transform: translateY(.1rem);
+    }
+  }
+
+  .middle-card:hover .star-icons .icon-1 {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-delay: .1s;
+  }
+
+  .middle-card:hover .star-icons .icon-2 {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-delay: 0s;
+  }
+
+  .middle-card:hover .star-icons .icon-3 {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-delay: .2s;
+  }
+
+  /* #endregion */
 }

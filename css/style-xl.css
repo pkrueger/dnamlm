@@ -1,0 +1,27 @@
+/* STYLING FOR XL AND UP */
+@media (min-width: 1200px) {
+  .reviews {
+    padding: 5rem var(--paddingx);
+  }
+
+  .first-card {
+    order: 0;
+  }
+
+  .middle-card {
+    padding: 2.5rem 3.5rem 3.25rem 3.5rem;
+  }
+
+  .side-card {
+    padding: 4rem 3.5rem .5rem 3.5rem;
+  }
+
+  .middle-card,
+  .side-card {
+    margin-bottom: 0;
+  }
+
+  .review-text-container p {
+    margin-bottom: 2rem;
+  }
+}

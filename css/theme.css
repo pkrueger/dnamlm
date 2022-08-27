@@ -71,7 +71,6 @@ body {
 .theme-nav {
   text-decoration: none;
   color: white;
-  transition: color .1s ease-in-out;
   transition: filter .05s ease-in-out;
 }
 
