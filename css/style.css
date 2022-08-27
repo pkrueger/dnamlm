@@ -5,6 +5,7 @@ body {
 
 .navbar {
   padding: 0 3rem;
+  box-shadow: 0 0 .8rem -.4rem var(--theme-black);
 }
 
 .navbar-nav {
@@ -16,9 +17,8 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  background-color: var(--theme-grayer-white);
-  /* background-image: url(/background-gifs/handshake.gif);
-  background-size: cover; */
+  background-image: url(/background-gifs/fuller.gif);
+  background-size: cover;
 }
 
 .sign-up-container {
@@ -92,10 +92,21 @@ body {
   background-color: white;
 }
 
+.more-button {
+  padding: .1rem 2rem;
+  border: none;
+  border-radius: .2rem;
+  transition: filter .05s ease-in-out;
+}
+
+.more-button:active {
+  filter: brightness(85%);
+}
+
 /* STYLING FOR MD AND UP */
 @media (min-width: 768px) {
   .hero {
-    height: 40rem;
+    height: 50rem;
   }
 
   .hero-floating-text {

@@ -3,7 +3,7 @@
   --theme-comp: #14ad6b;
   --theme-comp-opacity: #14ad6b11;
   --theme-analogous: #ad14a3;
-  --theme-gray-white: #f8f8f8;
+  --theme-white: #f8f8f8;
   --theme-grayer-white: #d6d6d6;
   --theme-black: #0a0a0a;
   --theme-black-opacity: #0a0a0a39;
@@ -39,12 +39,12 @@ body {
   background-color: var(--theme-analogous);
 }
 
-.theme-gray-white {
-  color: var(--theme-gray-white);
+.theme-white {
+  color: var(--theme-white);
 }
 
-.theme-gray-white-bg {
-  background-color: var(--theme-gray-white);
+.theme-white-bg {
+  background-color: var(--theme-white);
 }
 
 .theme-grayer-white {
@@ -70,7 +70,7 @@ body {
 /* CSS for navbar links */
 .theme-nav {
   text-decoration: none;
-  color: var(--theme-gray-white);
+  color: var(--theme-white);
   transition: color .1s ease-in-out;
   transition: filter .05s ease-in-out;
 }
