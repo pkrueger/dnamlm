@@ -18,6 +18,7 @@
     rel="stylesheet">
   <link rel="stylesheet" href="css/theme.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-md.css">
   <title>DNAMLM</title>
 </head>
 
@@ -25,13 +26,17 @@
   <header>
     <!-- SECTION navbar -->
     <section>
-      <nav class="navbar theme-primary-bg fixed-top">
+      <nav class="navbar navbar-expand-md theme-primary-bg fixed-top text-shadow">
         <div class="container-fluid">
           <a class="navbar-brand nav-brand" href="#">
             <i class="fa-solid fa-dna"></i>
             DNAMLM
           </a>
-          <div id="navbarNav">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div id="navbarNav" class="collapse navbar-collapse">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="theme-nav" href="#">Sign Up</a>
@@ -91,7 +96,7 @@
     <!-- SECTION text and box overlay -->
     <section id="mission" class="container-fluid mission">
       <div class="row">
-        <div class="col-md-5 mission-text">
+        <div class="col-md-5 mission-text text-shadow">
           <h2 class="mission-big">Become your best self at DNAMLM</h2>
           <p class="mission-small pe-5">
             Here at <strong><em>Definitely Not An MLM</em></strong> we pride ourselves in a forward thinking work
@@ -147,11 +152,11 @@
           <h1 class="live-big"> <i class="fa-solid fa-heart-pulse theme-comp"></i>
             Live your life your way at DNAMLM
           </h1>
-          <p class="live-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore odio eaque laborum
-            suscipit ex tenetur earum omnis, culpa fugiat saepe? Odit minus quae et earum velit quasi, dolorum
-            voluptatibus praesentium. Lorem ipsum dolor sit amet, consectetur adipisicing elit. A non explicabo quaerat
-            delectus error dolorum earum labore quasi, totam, atque aliquam aut eaque? Assumenda autem aperiam aliquam
-            eaque soluta voluptate!</p>
+          <p class="live-small">Are you just lazing around everyday, wasting your life? Be more like
+            the people in this video. They are having a great time being young and adventurous
+            probably because they joined DNAMLM. They look like winners and anyone who doesn't
+            join us is a loser. Come on. It's an easy decision.
+          </p>
           <button class="more-button theme-comp-bg">MORE</button>
         </div>
       </div>
@@ -164,42 +169,44 @@
           <div class="side-card review-card">
             <i class="fa-solid fa-quote-left"></i>
             <div class="review-text-container">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias eos expedita corporis harum
-                dolores eveniet similique. A earum inventore quos amet, architecto, maxime iste, quaerat voluptatum
-                excepturi qui sapiente.
+              <p><em>
+                  I know what you're thinking because I thought it as well at the beginning.
+                  Can this actually make me better than I am now? I can say, "Yes, it can!"
+                  Before coming to DNAMLM I was just a lame wooden boy but, with their help,
+                  I became a real boy!</em>
               </p>
-              <img src="/headshots/craig-mckay-jmURdhtm7Ng-unsplash.jpg" alt="a real person" class="img-fluid headshot">
-              <p class="theme-comp">name</p>
+
+              <img src="/headshots/pinocchio.jpg" alt="a real person" class="img-fluid headshot">
+              <p class="theme-comp">Pinocchio</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-4">
           <div class="middle-card">
-            <!-- TODO stars go here -->
             <div class="star-icons">
-              <div class="star-icon">
+              <div class="star-icon icon-1">
                 <i class="fa-solid fa-star"></i>
               </div>
-              <div class="star-icon">
+              <div class="star-icon icon-2">
                 <i class="fa-solid fa-star"></i>
               </div>
-              <div class="star-icon">
+              <div class="star-icon icon-3">
                 <i class="fa-solid fa-star"></i>
               </div>
             </div>
             <div class="review-card">
               <i class="fa-solid fa-quote-left"></i>
               <div class="review-text-container">
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias eos expedita corporis harum
-                  dolores eveniet similique. A earum inventore quos amet, architecto, maxime iste, quaerat voluptatum
-                  excepturi qui sapiente.
+                <p><em>
+                    Before I started working with DNAMLM my friends found me insufferable.
+                    DNAMLM helped me change that.
+                    Now my friends still find me insufferable and ask me things like, "Why
+                    would you let DNAMLM take one of your kidneys?" And I answer, "Hey, shut up."</em>
                 </p>
                 <img src="/headshots/jake-nackos-IF9TK5Uy-KI-unsplash.jpg" alt="a real person"
                   class="img-fluid headshot">
-                <p class="theme-comp">name</p>
+                <p class="theme-comp">A real person</p>
               </div>
             </div>
           </div>
@@ -209,13 +216,15 @@
           <div class="side-card review-card">
             <i class="fa-solid fa-quote-left"></i>
             <div class="review-text-container">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestias eos expedita corporis harum
-                dolores eveniet similique. A earum inventore quos amet, architecto, maxime iste, quaerat voluptatum
-                excepturi qui sapiente.
+              <p><em>
+                  Look at my face. Do I look like I could ever lie to you? You could look
+                  like me too if you come to DNAMLM. Through their patented satanic rituals
+                  they have discovered the way to make anyone beautiful, just like me.
+                  Trust me. I'm hot.
+                </em>
               </p>
               <img src="/headshots/julian-wan-WNoLnJo7tS8-unsplash.jpg" alt="a real person" class="img-fluid headshot">
-              <p class="theme-comp">name</p>
+              <p class="theme-comp">Trust this hot man</p>
             </div>
           </div>
         </div>
@@ -225,17 +234,20 @@
 
   <footer>
     <!-- SECTION footer info -->
-    <section class="container-fluid footer">
-      <div class="row theme-primary-bg">
+    <section class="container-fluid footer theme-primary-bg text-shadow">
+      <div class="row">
         <div class="col">
-          <p class="footer-big">Lorem ipsum dolor sit amet consectetur.</p>
-          <p class="footer-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nesciunt delectus
-            ea autem sint reiciendis? Modi optio cum quis molestias!</p>
+          <h1 class="footer-big"><a href="#">SIGN UP NOW</a></h1>
+          <p class="footer-small">You won't regret it. Probably.</p>
         </div>
       </div>
-      <div class="row copyright">
+    </section>
+
+    <!-- SECTION copyright -->
+    <section class="container-fluid copyright">
+      <div class="row">
         <div class="col">
-          <p class="theme-comp">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, reiciendis!</p>
+          <p class="theme-comp mb-0"><i class="fa-solid fa-copyright"></i> DNAMLM</p>
         </div>
       </div>
     </section>

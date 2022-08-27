@@ -7,7 +7,7 @@
   --theme-grayer-white: #d6d6d6;
   --theme-black: #0a0a0a;
   --theme-black-opacity: #0a0a0a39;
-  --shadow: .2rem .2rem .2rem -.2rem #0a0a0a;
+  --shadow: .3rem .3rem 1rem -.5rem rgb(0, 0, 0, 0.4);
 }
 
 /* Theme Classes */
@@ -81,4 +81,8 @@ body {
 
 .theme-nav:active {
   filter: brightness(85%);
+}
+
+.text-shadow {
+  text-shadow: 1px 1px var(--theme-black-opacity);
 }

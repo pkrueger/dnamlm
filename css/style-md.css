@@ -1,0 +1,45 @@
+/* STYLING FOR MD AND UP */
+@media (min-width: 768px) {
+  :root {
+    --paddingx: 5rem;
+  }
+
+  .hero {
+    height: 50rem;
+  }
+
+  .hero-floating-text {
+    align-self: flex-start;
+    padding: 5rem 20vw 0 9rem;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .vertical-bar {
+    height: 8rem;
+    width: .3rem;
+    box-shadow: .2rem .2rem 1rem -.1rem black;
+  }
+
+  .hero-big {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .hero-big,
+  .hero-small {
+    text-shadow: 1px 1px var(--theme-black-opacity);
+  }
+
+  .mission {
+    min-height: 20rem;
+  }
+
+  .offset-card {
+    transform: translateY(8rem);
+  }
+
+  .live {
+    max-height: 50rem;
+  }
+}
