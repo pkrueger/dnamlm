@@ -8,6 +8,10 @@
     padding: 5rem 20vw 0 9rem;
   }
 
+  .more-button {
+    margin-right: 8rem;
+  }
+
   .reviews {
     padding: 5rem var(--paddingx);
   }
