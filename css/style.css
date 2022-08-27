@@ -8,6 +8,7 @@ body {
 }
 
 /* SECTION navbar */
+/* #region */
 .navbar {
   padding: 0 var(--paddingx);
   box-shadow: 0 0 .8rem -.4rem var(--theme-black);
@@ -23,7 +24,10 @@ body {
   gap: 1rem;
 }
 
+/* #endregion */
+
 /* SECTION hero */
+/* #region */
 .hero {
   display: flex;
   align-items: center;
@@ -95,7 +99,10 @@ body {
   display: none;
 }
 
+/* #endregion */
+
 /* SECTION mission */
+/* #region */
 .mission {
   background-color: var(--theme-primary);
   display: flex;
@@ -120,7 +127,7 @@ body {
   padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .icon-and-text {
@@ -128,33 +135,68 @@ body {
 }
 
 .icon-container {
-  width: 2.5rem;
+  width: 4rem;
 }
 
 .icon-and-text i {
   color: var(--theme-comp);
   padding: 0 .5rem 0 0;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
-/* SECTION live */
+.icon-and-text h5 {
+  padding-top: .3rem;
+  font-weight: 500;
+}
+
+/* #endregion */
+
+/* SECTION lifestyle */
+/* #region */
 .live {
-  padding: 0 var(--paddingx);
+  padding: 5rem var(--paddingx);
+}
+
+video {
+  max-height: 40rem;
+}
+
+.live-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.live-big {
+  line-height: 4rem;
+}
+
+.live-small {
+  line-height: 1.75rem;
+  margin-top: -2rem;
 }
 
 .more-button {
+  width: fit-content;
   padding: .1rem 2rem;
+  margin-right: 8rem;
   border: none;
   border-radius: .2rem;
   transition: filter .05s ease-in-out;
   color: white;
+  align-self: flex-end;
 }
 
 .more-button:active {
   filter: brightness(85%);
 }
 
+/* #endregion */
+
 /* SECTION reviews */
+/* #region */
 .reviews {
   padding: 0 var(--paddingx);
 }
@@ -193,6 +235,8 @@ body {
   padding-left: .03rem;
 }
 
+/* #endregion */
+
 /* SECTION footer */
 .copyright {
   background-color: white;
@@ -228,10 +272,14 @@ body {
   }
 
   .mission {
-    height: 20rem;
+    min-height: 20rem;
   }
 
   .offset-card {
-    transform: translateY(6rem);
+    transform: translateY(8rem);
+  }
+
+  .live {
+    max-height: 50rem;
   }
 }
