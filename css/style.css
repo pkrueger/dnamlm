@@ -112,7 +112,7 @@ body {
 }
 
 .text-area-input {
-  height: 5rem;
+  resize: none;
 }
 
 .checkbox-input {
