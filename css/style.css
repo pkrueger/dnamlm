@@ -166,7 +166,6 @@ body {
   font-size: 1.1rem;
 }
 
-/* FIXME make icons on mobile line up correctly */
 .offset-card {
   background-color: white;
   box-shadow: var(--shadow);
