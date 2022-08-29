@@ -65,7 +65,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/background-gifs/fuller.gif);
+  background-image: url(../background-gifs/fuller.gif);
   background-size: cover;
   background-position: center;
   padding: 0 var(--paddingx);
